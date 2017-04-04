@@ -92,8 +92,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					<warSourceDirectory>WebApp</warSourceDirectory>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<warName>${project.artifactId}</warName>
 				</configuration>
 			</plugin>
 		</plugins>
